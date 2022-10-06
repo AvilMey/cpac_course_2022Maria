@@ -1,3 +1,4 @@
 *.pyc
 labs/lab3_multiagent/exercises/boids_box2d/sounds/*.wav
 labs/lab3_multiagent/solutions/boids_box2d/sounds/*.wav
+lectures/Lecture 2 - Tools and Protocols/Wekinator/Linear_Polynomial_Classification/Processing_ColorAndSound_1Classifier/Processing_ColorAndSound_1Classifier.pde
