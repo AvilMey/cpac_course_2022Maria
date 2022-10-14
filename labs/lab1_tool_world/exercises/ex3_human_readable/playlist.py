@@ -11,7 +11,7 @@ import your_code
 
 audio_feature_url="https://api.spotify.com/v1/audio-features"
 add_item_playlist_url="https://api.spotify.com/v1/playlists/{playlist_id}/tracks"
-create_playlist_url="https://api.spotify.com/v1/users/{user_id}/playlists"
+create_playlist_url="https://api.spotify.com/v1/users/1172950861/playlists"
 # %% Get the token
 # 1) go to https://developer.spotify.com/console/post-playlists/
 # 2) press "get token"

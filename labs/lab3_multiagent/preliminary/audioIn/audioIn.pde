@@ -15,9 +15,8 @@ void setup(){
    fft.window(FFT.HAMMING);
 }
 
-void draw(){
-  
-  background(0);
+void computeEnergy(){
+ 
    fft.forward(this.mic.mix);
    float band_energy;
    float rectWidth=width/fft.specSize();

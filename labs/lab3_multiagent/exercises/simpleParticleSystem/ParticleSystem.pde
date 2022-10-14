@@ -3,7 +3,7 @@ class ParticleSystem{
   PVector origin;
   ParticleSystem(){
     this.particles = new ArrayList<Particle>();
-    this.origin=new PVector(width/2, height/2);
+    this.origin=new PVector(width/2, height);
   }
   ParticleSystem(PVector origin){
     this.particles = new ArrayList<Particle>();

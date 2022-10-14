@@ -1,7 +1,10 @@
 ParticleSystem ps;
-int Nparticles=1000;
+int Nparticles=100;
+PImage img;
+
 void setup(){
-  size(1280,720);
+  size(1024,500, P2D);
+  img = loadImage("texture.png");
   ps=new ParticleSystem();
   for(int p=0; p<Nparticles; p++){
     ps.addParticle();
@@ -10,8 +13,10 @@ void setup(){
 }
 
 void draw(){
+  blendMode(ADD);
   background(0);
-  ps.origin=new PVector(mouseX, mouseY);
+  //computeEnergy();
+  //ps.origin=new PVector(mouseX, mouseY);
   
   ps.draw();
 }

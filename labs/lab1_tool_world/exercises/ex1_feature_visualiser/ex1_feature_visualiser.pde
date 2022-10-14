@@ -11,6 +11,7 @@ AgentDrawer drawer;
 
 void setup()
 {
+  //Starts the screen and loads the song
   size(1280, 720);
   background(0);
   smooth();
@@ -27,8 +28,8 @@ void setup()
 void draw(){
   fill(0);
   rect(0,0,width, height);
-  feat.reasoning(song.mix);  
-  drawer.action();
+  feat.reasoning(song.mix);  //reasoning is to comute the features
+  drawer.action(); //show the features o the screen
 }
 
 

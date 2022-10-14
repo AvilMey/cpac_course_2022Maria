@@ -21,6 +21,8 @@ class Particle{
   
   void draw(){
     /* your code here*/
+    imageMode(CENTER);
+    tint(255, this.lifespan);
     colorMode(HSB, 255);
     fill(200);
     noStroke();
