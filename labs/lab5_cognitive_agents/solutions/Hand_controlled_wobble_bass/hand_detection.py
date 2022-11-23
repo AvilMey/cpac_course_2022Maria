@@ -1,3 +1,4 @@
+# %% 
 import cv2
 import imutils
 import numpy as np
@@ -5,6 +6,7 @@ import argparse
 import os
 from pythonosc import udp_client
 
+# %%
 from joblib import dump,load
 from hand_detection_utils import *
 from SVM import *
@@ -234,3 +236,5 @@ if __name__ == "__main__":
 camera.release()
 cv2.destroyAllWindows()
 
+
+# %%
